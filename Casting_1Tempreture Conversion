@@ -1,0 +1,3 @@
+temp = input("what is the temp in C")
+tempa = float(temp) 
+print((tempa*9/5)+32)
