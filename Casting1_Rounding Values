@@ -1,0 +1,3 @@
+num1 = input("decimal number pls")
+num2 = float(num1)
+print(int(num2) + round(num2))
