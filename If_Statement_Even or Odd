@@ -1,1 +1,5 @@
-
+num1 = int(input("number please")
+if num1 == odd:
+  print("odd")
+else:
+  print("even")
