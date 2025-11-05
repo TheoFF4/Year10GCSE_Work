@@ -1,0 +1,3 @@
+num1 = int(input("number please"))
+num2 = int(input("another number please"))
+print(num1 + num2)
