@@ -1,0 +1,6 @@
+def calculate_sale_price(original_price,discount_percent):
+    end_price = original_price * (discount_percent/100)
+    print(end_price)
+
+
+calculate_sale_price(int(input("price value please")),int(input("discount amount(in percent but not with % symbol"))
