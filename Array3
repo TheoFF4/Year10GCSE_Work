@@ -1,1 +1,11 @@
+highrating = 0
+total = 0
 rating = [0,0,0,0,0]
+for i in range rating:
+  rating[i] = int(input("shop rating please")
+for i in range rating:
+  total = total+rating[i]
+  if rating[i] >= 4:
+    highrating = highrating+1
+print(total/len.rating)
+print(highrating)
