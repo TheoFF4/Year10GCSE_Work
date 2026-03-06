@@ -1,0 +1,13 @@
+hotdays = 0
+colddays = 0
+totaltemp = 0
+tempreture = [23,18,9,32,11]
+for temp in tempreture:
+  if tempreture[temp] > 20:
+    print("hot")
+    hotdays = hotdays + 1
+  else:
+    print("cold")
+    colddays = colddays + 1
+  totaltemp = totaltemp + tempreture[temp]
+print(totaltemp/ len.tempreture, hotdays)
