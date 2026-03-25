@@ -1,0 +1,22 @@
+num = int(input("Enter a value in numbers only "))
+original = input("What unit is it mm, cm, m or km ")
+while original != "km" and original != "m" and original != "mm" and original != "cm":
+    original = input("Please enter a correct unit mm, cm or m ")
+convert = input("what unit do you want to convert it to?")
+while convert != "km" and convert != "m" and convert != "mm" and convert != "cm":
+    convert = input("Please enter a correct unit mm, cm or m ")
+safe = num
+if original == "cm":
+    num = num * 10
+elif original == "m":
+    num = num * 1000
+elif original == "km":
+    num = num * 1000000
+
+if convert == "cm":
+    num = num/10
+elif convert == "m":
+    num = num/1000
+elif convert == "km":
+    num = num/1000000
+print(safe , original , "is" ,num,convert)
