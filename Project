@@ -1,0 +1,12 @@
+red = [1,2,3,4,5,6,7,8,9,10]
+yellow = [1,2,3,4,5,6,7,8,9,10]
+black = [1,2,3,4,5,6,7,8,9,10]
+card = [red,black,yellow]
+playername2 = input("name and age please ").split()
+playerage2 =
+playeruser2
+playerpass2 = input("what password would you like".format(player1[0]))
+playername2 = input("name and age please ").split()
+playerage2 =
+playeruser2
+playerpass2 = input("what password would you like".format(player1[0]))
