@@ -1,0 +1,6 @@
+timestable = int(input("what times u want"))
+answer = 0
+print("here is the {timestable} times table")
+for calc in range(1,11):
+  answwer = calc * timestable
+  print("{calc} times {timestable} is {answwer}")
