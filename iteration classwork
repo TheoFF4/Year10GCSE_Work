@@ -3,5 +3,25 @@ guess = "choo"
 while guess != password:
   guess = input("Enter the password")
   if guess != password:
+ print("incorrect try again")
+if guess = password:
+  print("print correct password")
+
+# part two
+
+password = "oak123"
+guess = "choo"
+if guess != password:
+  guess = input("Enter the password")
+  if guess != password:
     print("incorrect try again")
-print("print correct password")
+if guess != password:
+  guess = input("Enter the password")
+  if guess != password:
+    print("incorrect try again")
+if guess != password:
+  guess = input("Enter the password")
+  if guess != password:
+    print("incorrect try again attempt 3")
+if guess = password:
+  print("print correct password")
